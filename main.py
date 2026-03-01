@@ -7,3 +7,4 @@ b = int(input('Введите число 2: '))
 
 calc = Calculator(a, b)
 print('Сумма: ', calc.summa())
+print('Вычитание: ', calc.minus())
