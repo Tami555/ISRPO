@@ -1,6 +1,9 @@
+from calculator import Calculator
 print("Hello world")
 
 # calculator
-a = input('Введите число 1: ')
-b = input('Введите число 2: ')
-print('Сумма: ', int(a) + int(b))
+a = int(input('Введите число 1: '))
+b = int(input('Введите число 2: '))
+
+calc = Calculator(a, b)
+print('Сумма: ', calc.summa())
