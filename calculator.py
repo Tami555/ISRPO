@@ -12,7 +12,7 @@ class Calculator:
         return self.second_number - self.first_number
 
     def multipart(self):
-        pass
+        return self.first_number * self.second_number
 
     def delenie(self):
-        pass
+        return self.first_number / self.second_number
