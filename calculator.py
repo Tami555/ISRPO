@@ -10,3 +10,9 @@ class Calculator:
         if first_to_second:
             return self.first_number - self.second_number
         return self.second_number - self.first_number
+
+    def multipart(self):
+        pass
+
+    def delenie(self):
+        pass
